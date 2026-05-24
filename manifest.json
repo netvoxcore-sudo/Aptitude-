@@ -1,21 +1,53 @@
 {
   "name": "Aptitude — Life Operating System",
   "short_name": "Aptitude",
-  "description": "Strategic communication, productivity, and self-mastery for high-achieving students.",
-  "version": "3.0.0",
-  "start_url": "/index.html?source=pwa",
+  "description": "Ten pillars. One dashboard. Your personal life OS — track fitness, finance, habits, education, and more.",
+  "start_url": "/",
   "scope": "/",
-  "id": "aptitude-life-os-v3",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
   "orientation": "portrait-primary",
+  "background_color": "#0a0a0a",
   "theme_color": "#0a0a0a",
-  "background_color": "#000000",
-  "lang": "en-PH",
-  "dir": "ltr",
-  "categories": ["productivity", "education"],
-  "icons": [],
-  "screenshots": [],
-  "shortcuts": [],
-  "handle_links": "preferred"
+  "lang": "en",
+  "categories": ["productivity", "lifestyle", "education", "health"],
+  "icons": [
+    {
+      "src": "https://i.ibb.co/pjNb2Mvh/IMG-20260524-094005.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://i.ibb.co/pjNb2Mvh/IMG-20260524-094005.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://i.ibb.co/pjNb2Mvh/IMG-20260524-094005.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Aptitude Home Screen"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Log Activity",
+      "short_name": "Log",
+      "description": "Quickly log a new activity",
+      "url": "/?tab=log",
+      "icons": [{ "src": "https://i.ibb.co/pjNb2Mvh/IMG-20260524-094005.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "View Pillars",
+      "short_name": "Pillars",
+      "description": "Open the Ten Pillars dashboard",
+      "url": "/?tab=pillars",
+      "icons": [{ "src": "https://i.ibb.co/pjNb2Mvh/IMG-20260524-094005.png", "sizes": "96x96" }]
+    }
+  ],
+  "prefer_related_applications": false
 }
